@@ -1,0 +1,12 @@
+#brand-partners .list {
+    border: 1px solid;
+}
+
+#brand-partners .list .list-box{
+    height: 50px;
+    border: 1px;
+}
+
+#brand-partners .list .list-box img {
+    filter: grayscale(1);
+}

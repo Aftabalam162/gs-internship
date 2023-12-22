@@ -1,0 +1,25 @@
+.list-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list {
+    width: 75%;
+    display: flex;
+  /*   border: 1px solid; */
+    justify-content: space-between;
+  }
+  
+  .list-box {
+    width: 100px;
+    height: 100px;
+  /*   background-color: red; */
+    border: 1px solid red;
+  }
+
+  .list-box img {
+    /*   object-fit: contain; */
+      height: 100%;
+    /*   width: 100%; */
+      text-align: center;
+    }
