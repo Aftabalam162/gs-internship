@@ -1,9 +1,9 @@
 import React from "react";
 import "./Button.css";
 
-const Button = (props) => {
+const Button = () => {
     return <>
-        <button type="Submit" style={props.style || {}}>{props.children}</button>
+        <button className="buttonStyle" >Get a Free Trial</button>
     </>
 }
 
