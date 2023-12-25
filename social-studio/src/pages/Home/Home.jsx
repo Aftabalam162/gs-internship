@@ -135,7 +135,7 @@ const Home = () => {
                 <img src="./integration-app-logos.png" alt="" />
             </div>
 
-            <h2>Benefits of the Integration</h2>
+            <h2 style={{margin:"40px"}}>Benefits of the Integration</h2>
 
             <div className="benefits-container">
                 <div className="benefits-box">

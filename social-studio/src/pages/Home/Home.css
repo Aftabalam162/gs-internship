@@ -190,22 +190,36 @@ border: 1px solid #163A59;
     display: flex;
     /* align-items: center; */
     flex-direction: row;
-    margin: 20px;
+    margin: 50px;
     margin-top: 0;
+    gap:40px;
 }
 
+
+@media screen and (max-width) {
+    .benefits-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
 .benefits-box {
-    height: 150px;
+    /* height: 150px; */
     display: flex;
     border: 1px solid;
     /* width: 70%; */
     gap: 20px;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     padding: 0 20px;
     margin: 10px;
     border-radius: 15px;
     background-color: #f4f4f4;
+
+    width: 313px;
+    height: 123px;
+    flex-shrink: 0;
 }
 
 .features-container {
@@ -213,7 +227,7 @@ border: 1px solid #163A59;
     justify-content: space-around;
     /* border: 1px solid; */
     margin: 50px;
-    
+    max-width: 100%;
 }
 
 .third-section {
@@ -226,8 +240,8 @@ border: 1px solid #163A59;
 .uses-container{
     /* width: 85%; */
     text-align: center;
-    margin: 50px;
-    margin-bottom: 0px;
+    margin: 0 50px;
+    /* margin-bottom: 0px; */
 }
 
 .useBoxContainer {
@@ -272,6 +286,10 @@ border: 1px solid #163A59;
     width: 100%;
     overflow: hidden;
 
+}
+
+.integration-tools img {
+    width:100%;
 }
 
  
@@ -347,6 +365,12 @@ border-radius: 10px; */
     width: 386px;
     height: 415px;
     position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    .testimonial {
+        height: fit-content;
+    }
 }
 
 .testimonialDivide {
@@ -559,6 +583,9 @@ p.comment {
         order: 1;
     }
 
+    .integration-tools img {
+        width: unset;
+    }
 
     .benefits-container {
         display: flex;

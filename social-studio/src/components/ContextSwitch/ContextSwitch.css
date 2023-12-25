@@ -32,7 +32,18 @@
     margin-top: 50px;
     /* margin-bottom: 0; */
     gap:50px;
-    height:520px;
+    /* height:520px; */
+    width:80%;
+}
+
+@media screen and (max-width: 1400px) {
+    .context-detail {
+        flex-wrap: wrap;
+    }
+
+    .contextText {
+        order:1;
+    }
 }
 
 .contextMultipleImage {
@@ -44,4 +55,9 @@
 .contextMultipleImage img {
     /* display: inline; */
     height: 100px;
+}
+
+.contextData {
+    display: flex;
+    justify-content: center;
 }

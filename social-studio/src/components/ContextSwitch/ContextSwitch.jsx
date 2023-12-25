@@ -21,8 +21,10 @@ const ContextSwitch = () => {
       <button className="contextBtn" onClick={() => handleButtonClick(opt6)}>SURVEYS & FEEDBACK</button>
       <button className="contextBtn" onClick={() => handleButtonClick(opt7)}>BI TOOLS & DASHBOARDS</button>
       <button className="contextBtn" onClick={() => handleButtonClick(opt8)}>CRISIS MANAGEMENT</button>
-      <div className="context-detail">
-        {context}
+      <div className="contextData">
+        <div className="context-detail">
+          {context}
+        </div>
       </div>
       </div>
     </>
