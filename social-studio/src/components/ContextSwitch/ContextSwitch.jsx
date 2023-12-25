@@ -13,15 +13,17 @@ const ContextSwitch = () => {
   return (
     <>
     <div className="multiple-contexts">
-      <button onClick={() => handleButtonClick(opt1)}>SOCIAL LISTENING</button>
-      <button onClick={() => handleButtonClick(opt2)}>ONLINE REPUTATION</button>
-      <button onClick={() => handleButtonClick(opt3)}>SOCIAL CRM</button>
-      <button onClick={() => handleButtonClick(opt4)}>SOCIAL ANALYTICS</button>
-      <button onClick={() => handleButtonClick(opt5)}>SOCIAL PUBLISHING</button>
-      <button onClick={() => handleButtonClick(opt6)}>SURVEYS & FEEDBACK</button>
-      <button onClick={() => handleButtonClick(opt7)}>BI TOOLS & DASHBOARDS</button>
-      <button onClick={() => handleButtonClick(opt8)}>CRISIS MANAGEMENT</button>
-      <div className="context-detail">{context}</div>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt1)}>SOCIAL LISTENING</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt2)}>ONLINE REPUTATION</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt3)}>SOCIAL CRM</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt4)}>SOCIAL ANALYTICS</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt5)}>SOCIAL PUBLISHING</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt6)}>SURVEYS & FEEDBACK</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt7)}>BI TOOLS & DASHBOARDS</button>
+      <button className="contextBtn" onClick={() => handleButtonClick(opt8)}>CRISIS MANAGEMENT</button>
+      <div className="context-detail">
+        {context}
+      </div>
       </div>
     </>
   );

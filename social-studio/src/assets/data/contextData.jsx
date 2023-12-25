@@ -1,26 +1,26 @@
 const opt1 = <>
-    <h2>Listen to online web, Social Media and a lot more</h2>
-    <p>Do not miss out on any conversations anywhere </p>
+    <div className="contextText">
+        <h2>Listen to online web, Social Media and a lot more</h2>
+        <p>Do not miss out on any conversations anywhere </p>
 
-    <h2>Get Market Intelligence</h2>
-    <p>Analyze customer data from anywhere on the web and social media. Get
-real-time market intelligence. Fine-tune your strategies and make valuable
-business decisions</p>
+        <h2>Get Market Intelligence</h2>
+        <p>Analyze customer data from anywhere on the web and social media. Get real-time market intelligence. Fine-tune your strategies and make valuable business decisions</p>
+        
 
 
-    <h2>Creative Asset Library</h2>
-    <p>Pre-save all your content, including text and media, in the creative asset
-library. Easily pick them up for publishing and scheduling, giving your
-design and content teams the flexibility to plan and execute your
-campaigns and festivals</p>
+        <h2>Creative Asset Library</h2>
+        <p>Pre-save all your content, including text and media, in the creative asset library. Easily pick them up for publishing and scheduling, giving your design and content teams the flexibility to plan and execute your campaigns and festivals</p>
 
-    <h2>Competitor's/Industry benchmarking</h2>
-    <p>See how you are faring against your competition. Understand what is
-working for them and what is working against them. Understand global
-trends with support for over 190 languages</p>
+        <h2>Competitor's/Industry benchmarking</h2>
+        <p>See how you are faring against your competition. Understand what is working for them and what is working against them. Understand global trends with support for over 190 languages</p>
+    </div>
+    <div className="contextImage">
+          <img src="./dashboardImages/1.png" alt="dashboard-image" />
+    </div>
 </>
 
 const opt2 = <>
+<div className="contextText">
     <h2>Conversations as Tickets</h2>
     <p>View all conversations related to your brand in the form of
 support tickets, which give you a detailed overview of the
@@ -41,9 +41,21 @@ rules you define, thus reducing time</p>
 of resolution, check TAT scores, and identify areas that need
 more action. Measure the impact by analyzing the difference in
 sentiment based on your efforts</p>
+
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/2.png" alt="dashboard-image" />
+        {/* <div className="contextMultipleImage">
+
+            <img src="./dashboardImages/22.png" alt="dashboard-image" />
+            <img src="./dashboardImages/23.png" alt="dashboard-image" />
+            <img src="./dashboardImages/24.png" alt="dashboard-image" />
+        </div> */}
+    </div>
 </>
 
 const opt3 = <>
+<div className="contextText">
     <h2>Automation and workflows</h2>
     <p>Workflows and automation such as queuing, ticket history,
 auto-assignment and classification, draft templates, and many
@@ -62,9 +74,20 @@ social, in one place to be able to have a holistic view of the
 customer, including the query history, details, etc, and use this
 information for better CXM</p>
 
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/3.png" alt="dashboard-image" />
+        {/* <div className="contextMultipleImage">
+            <img src="./dashboardImages/31.png" alt="dashboard-image" />
+            <img src="./dashboardImages/32.png" alt="dashboard-image" />
+            <img src="./dashboardImages/33.png" alt="dashboard-image" />
+        </div> */}
+    </div>
+
 </>
 
 const opt4  = <>
+<div className="contextText">
     <h2>Analytics and Benchmarking</h2>
     <p>With over 700 charts covering various aspects of listening,
 social media analytics, competitor analytics, and agent
@@ -84,10 +107,15 @@ with Al-powered smart suggestions</p>
 points, hits and misses, moments when your audience is
 active, and much more to quickly shape align messaging into
 consumer-relevant and engagement-driven</p>
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/4.png" alt="dashboard-image" />
+    </div>
+
 </>
 
 const opt5 = <>
-
+<div className="contextText">
     <h2>Social Media Management</h2>
     <p>Easily and effectively publish or schedule posts on social
 media across multiple channels and multiple accounts,
@@ -105,10 +133,16 @@ creative asset library. Easily pick them up for publishing and
 scheduling, giving your design and content teams the flexibility
 to plan and execute your campaigns and festivals</p>
     
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/5.png" alt="dashboard-image" />
+    </div>
+
 </>
 
 
 const opt6 = <>
+<div className="contextText">
     <h2>Customer Satisfaction Surveys</h2>
     <p>If your customers are really satisfied, Send Csat-Customer
 Satisfaction Surveys that are linked to your customer care
@@ -125,9 +159,15 @@ classifications created for social listening</p>
 brand, test your ideas, or get a gut check with your target
 audience. Share learning across your organization</p>
 
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/6.png" alt="dashboard-image" />
+    </div>
+
 </>
 
 const opt7  = <>
+<div className="contextText">
     <h2>Customised Dashboards</h2>
     <p>Create dashboards for various stakeholders by simply
 dragging and dropping charts from the chart library or charts
@@ -151,9 +191,15 @@ Save time and share live dashboards</p>
 chart colors to match the brand and competition. Use various
 color palettes to make visually stunning dashboards</p>
 
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/7.png" alt="dashboard-image" />
+    </div>
+
 </>
 
 const opt8 = <>
+<div className="contextText">
     <h2>Identify crisis</h2>
     <p>Ensure you are aware of any impending crisis that could affect
 your brand and be ready for it. Use keywords, hashtags and
@@ -169,6 +215,11 @@ alerted on mobile apps and/or email</p>
 analytics and data. Respond to queries in real time and use
 workflows to enhance their productivity and TATs and identify
 and mobilise influencers to counter crises</p>
+
+</div>
+    <div className="contextImage">
+    <img src="./dashboardImages/8.png" alt="dashboard-image" />
+    </div>
 
 </>
 

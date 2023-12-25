@@ -4,3 +4,44 @@
         display:none;
     }    
 } */
+
+.multiple-contexts {
+    margin: 50px;
+}
+
+.contextBtn {
+    border-radius: 4.881px;
+    border: 1px solid #DADADA;
+    background: #F0F0F0;
+    /* height: 30px; */
+    width: fit-content;
+    padding: 10px;
+    font-size: small;
+}
+
+.contextBtn:focus {
+    border-radius: 4.881px;
+    border: 1px solid #F17B7B;
+    background: #FFB8B8;
+}
+
+.context-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+    /* margin-bottom: 0; */
+    gap:50px;
+    height:520px;
+}
+
+.contextMultipleImage {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contextMultipleImage img {
+    /* display: inline; */
+    height: 100px;
+}

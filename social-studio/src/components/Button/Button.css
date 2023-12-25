@@ -1,11 +1,48 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
 .buttonStyle {
-    background-color: #edcd54;
-    color: black;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0;
-    border-radius: 24px;
+    /* padding: 15.96px 31.93px;
     height: fit-content;
-    margin: 5px;
+
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 19.158px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border-radius: 34.325px;
+    background: #EDCD54; */
+
+
+    display: flex;
+/* width: 171.295px; */
+width: fit-content;
+height: 42.32px;
+padding: 15.037px 30.075px;
+justify-content: center;
+align-items: center;
+gap: 7.519px;
+flex-shrink: 0;
+border-radius: 32.331px;
+background: #EDCD54;
+
+color: #000;
+leading-trim: both;
+text-edge: cap;
+font-family: Inter;
+font-size: 18.045px;
+/* font-style: normal; */
+font-weight: 600;
+line-height: normal;
+}
+
+
+@media screen and (max-width: 479px) {
+.buttonStyle {
+    padding: 5px 10px;
+    margin: 15px;
+}
 }
