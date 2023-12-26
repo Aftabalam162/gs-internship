@@ -70,9 +70,12 @@ body {
     /* width: 50%; */
 }
 
-.form-container .callToAction {
+
+
+.callToAction {
     width: 50%;
 }
+
 
 .request-trial-form {
     width: 50%;
@@ -89,6 +92,28 @@ border-radius: 9.419px;
 border: 2.826px solid #163A59;
 background: #09243C;
 }
+
+@media screen and (max-width:1400px){
+    .form-container {
+        flex-direction: column;
+    }
+
+    .request-trial-form {
+        width: 100%;
+    }
+
+    .requestTrialBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .callToAction {
+        width: 100%;
+    }
+    
+}
+
 
 .contactForm {
     margin-left: 40.46px;
@@ -182,6 +207,12 @@ border: 1px solid #163A59;
     border-right: 1px solid #6b728042;
 }
 
+@media screen and (max-width: 1400px) {
+    .feature-box {
+        border: 0;
+    }
+}
+
 .feature-box:last-child {
     border-right:0;
 }
@@ -196,7 +227,7 @@ border: 1px solid #163A59;
 }
 
 
-@media screen and (max-width) {
+@media screen and (max-width:1400px) {
     .benefits-container {
         flex-wrap: wrap;
         justify-content: center;
@@ -228,6 +259,7 @@ border: 1px solid #163A59;
     /* border: 1px solid; */
     margin: 50px;
     max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .third-section {
@@ -247,6 +279,13 @@ border: 1px solid #163A59;
 .useBoxContainer {
     display: flex;
     margin: 70px 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .useBoxContainer {
+        flex-wrap: wrap;
+        /* width: 70%; */
+    }
 }
 
 .use-box img {
@@ -338,8 +377,9 @@ border: 1px solid #163A59;
     border-radius: 15px;
     border-color: rgb(202, 202, 202);
     width: 386px;
-    height: 415px;
+    height: fit-content;
     position: relative;
+    flex-wrap: wrap;
 /* top: 3656px;
 left: 121px;
 border-radius: 10px; */
@@ -352,6 +392,7 @@ border-radius: 10px; */
 .testimonialsContainer {
     display: flex; 
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .testimonial {
@@ -365,13 +406,9 @@ border-radius: 10px; */
     width: 386px;
     height: 415px;
     position: relative;
+    flex-wrap:wrap;
 }
 
-@media screen and (max-width: 1440px) {
-    .testimonial {
-        height: fit-content;
-    }
-}
 
 .testimonialDivide {
     border-top: 1px solid #E9E9E9;
@@ -391,7 +428,8 @@ border-radius: 10px; */
 }
 
 p.comment {
-    height: 256px;
+    /* height: 256px; */
+    height:fit-content;
     margin: 0;
     padding: 0;
 }
@@ -470,6 +508,8 @@ p.comment {
         margin: 0;
         width: 100%;
     }
+
+ 
 
     .form-container .callToAction {
         display: flex;
@@ -574,6 +614,12 @@ p.comment {
         border:0;
     }
 
+    @media screen and(max-width:1400px) {
+        .feature-box {
+            border:0;
+        }
+    }
+
     .feature-box p {
         width: 75%;
     }
@@ -645,14 +691,18 @@ p.comment {
         box-shadow: 0 0 20px rgb(99, 99, 99);
         border-radius: 15px;
         border-color: rgb(202, 202, 202);
-        width: unset;
-        height: unset;
+        width: 100%;
+        /* height: fit-content; */
     /* top: 3656px;
     left: 121px;
     border-radius: 10px; */
     }
 
-    
+    .testimonialDivide {
+        display: none;
+    }
+
+
     .product-user {
         display: flex;
         align-items: center;
@@ -677,7 +727,9 @@ p.comment {
         width: 30%;
     }
     
-
+    .comment {
+        height: fit-content;
+    }
 
 
 }

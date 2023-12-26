@@ -226,7 +226,7 @@ const Home = () => {
                     <p className="comment">
                     We have a seamless integration between Konnect Insights and Freshdesk. This gives us the ability to provide excellent coverage to our clients when it comes to social data. The queries coming on social media and web can be easily pushed into Freshdesk thus giving us a single view of the customer across the systemns 
                     </p>
-                    <hr className="testimonialDivide" />
+                    {/* <hr className="testimonialDivide" /> */}
                     <div className="product-user">
                         <div className="user-img">
                             <img src="./productUsers/1.png" alt="" />
@@ -241,7 +241,7 @@ const Home = () => {
                     <p className="comment">
                     Konnect Insights is proving to be essential to my job - right from getting exhaustive coverage for my clients to being able to manage their reputation by responding to customer queries. Most importantly I find it to be intuitive, so if there is anything that I haven't been shown I can generally figure it out for myself. It is the best software of its kind that I have ever used."
                     </p>
-                    <hr className="testimonialDivide" />
+                    {/* <hr className="testimonialDivide" /> */}
                     <div className="product-user">
                         <div className="user-img">
                             <img src="./productUsers/2.png" alt="" />
@@ -256,7 +256,7 @@ const Home = () => {
                     <p className="comment">
                     Konnect Insights is primarily a professional social listening and monitoring tool; but, like a Swiss army knife, it actually includes a few other full-fledged services as well:Social CRM tool: workflow and response management features; Analytics: brand, competition, and industry analysis; Social scheduling: easily schedule messages for your social profiles.
                     </p>
-                    <hr className="testimonialDivide" />
+                    {/* <hr className="testimonialDivide" /> */}
                     <div className="product-user">
                         <div className="user-img">
                             <img src="./productUsers/3.png" alt="" />
@@ -271,7 +271,7 @@ const Home = () => {
                     <p className="comment">
                     Konnect Insights is incredibly powerful! I have been actively using the platform for some time now and what has impressed me the most is the in-depth reporting from social listening across channels. You can really dig in and gain actionable insights to deepen connection with your followers. The publishing tools are excellent, too.
                     </p>
-                    <hr className="testimonialDivide" />
+                    {/* <hr className="testimonialDivide" /> */}
                     <div className="product-user">
                         <div className="user-img">
                             <img src="./productUsers/4.png" alt="" />
