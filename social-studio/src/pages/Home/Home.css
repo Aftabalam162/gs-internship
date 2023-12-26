@@ -365,6 +365,7 @@ border-radius: 10px; */
     width: 386px;
     height: 415px;
     position: relative;
+  display:flex;
 }
 
 @media screen and (max-width: 1440px) {
@@ -381,7 +382,7 @@ border-radius: 10px; */
     
     width: 100%;
     z-index: 1;
-    position: absolute;
+    /*position: absolute;*/
     left: 0px;
     margin:0;
 }
